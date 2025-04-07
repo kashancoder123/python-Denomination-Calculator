@@ -4,12 +4,12 @@ from PIL import Image, ImageTk
 
 # Setting up Main Window
 root = Tk()
-root.title('images.jpg')
+root.title('Denominations Calculator')
 root.configure(bg='light blue')
 root.geometry('650x400')
 
 # Adding Image and Labels in the Main Window
-upload = Image.open("app_img.jpg")
+upload = Image.open("images.jpg")
 # Resize the image using resize() method
 upload = upload.resize((300, 300))
 image = ImageTk.PhotoImage(upload)
